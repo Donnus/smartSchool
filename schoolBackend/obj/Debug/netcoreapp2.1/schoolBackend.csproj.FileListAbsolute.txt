@@ -1,0 +1,14 @@
+E:\Projects\smartSchool\schoolBackend\bin\Debug\netcoreapp2.1\schoolBackend.deps.json
+E:\Projects\smartSchool\schoolBackend\bin\Debug\netcoreapp2.1\schoolBackend.runtimeconfig.json
+E:\Projects\smartSchool\schoolBackend\bin\Debug\netcoreapp2.1\schoolBackend.runtimeconfig.dev.json
+E:\Projects\smartSchool\schoolBackend\bin\Debug\netcoreapp2.1\schoolBackend.dll
+E:\Projects\smartSchool\schoolBackend\bin\Debug\netcoreapp2.1\schoolBackend.pdb
+E:\Projects\smartSchool\schoolBackend\obj\Debug\netcoreapp2.1\schoolBackend.csprojAssemblyReference.cache
+E:\Projects\smartSchool\schoolBackend\obj\Debug\netcoreapp2.1\schoolBackend.csproj.CoreCompileInputs.cache
+E:\Projects\smartSchool\schoolBackend\obj\Debug\netcoreapp2.1\schoolBackend.RazorAssemblyInfo.cache
+E:\Projects\smartSchool\schoolBackend\obj\Debug\netcoreapp2.1\schoolBackend.RazorAssemblyInfo.cs
+E:\Projects\smartSchool\schoolBackend\obj\Debug\netcoreapp2.1\schoolBackend.AssemblyInfoInputs.cache
+E:\Projects\smartSchool\schoolBackend\obj\Debug\netcoreapp2.1\schoolBackend.AssemblyInfo.cs
+E:\Projects\smartSchool\schoolBackend\obj\Debug\netcoreapp2.1\schoolBackend.RazorTargetAssemblyInfo.cache
+E:\Projects\smartSchool\schoolBackend\obj\Debug\netcoreapp2.1\schoolBackend.dll
+E:\Projects\smartSchool\schoolBackend\obj\Debug\netcoreapp2.1\schoolBackend.pdb
