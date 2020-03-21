@@ -1,0 +1,55 @@
+<nz-header>
+    <div nz-row>
+      <div nz-col nzSpan="8">
+        <a href="" id="logo">
+          <img alt="logo" src="https://ng.ant.design/assets/img/logo.svg" style="width: 28px; height: 32px; margin-right: 16px;">
+          <img alt="NG-ZORRO" src="https://ng.ant.design/assets/img/zorro.svg" style="width: 83px; height: 16px;">
+        </a>
+      </div>
+      <div nz-col nzSpan="16" nz-row>
+        <div nz-col nzSpan="8">
+          <h3><b>Welcome to Plutech Modern School</b></h3>
+        </div>
+        <div nz-col nzSpan="16"> 
+          <div style="float: right;">
+            <nz-badge [nzCount]="5" style="margin-right: 30px;">
+              <i nz-icon nzType="notification" nzTheme="outline" style="font-size: 18pt;"></i>
+            </nz-badge> 
+            <nz-avatar nzIcon="user" nzSrc="../../../assets/avatar.jpg" class="header-icons"
+            nz-popover
+            nzPopoverTitle="John Doe"
+            [nzPopoverContent]="userOptions"
+            nzPopoverPlacement="bottom"></nz-avatar>  
+            <ng-template #userOptions>
+              <div>
+                <a class="user-option" href=""><p>
+                  <i nz-icon nzType="user"></i> My Profile
+                </p></a>
+                <a href=""><p>
+                  <i nz-icon nzType="global"></i> Task
+                </p></a>           
+                <a href=""><p>
+                  <i nz-icon nzType="setting"></i> Account Settings
+                </p></a>
+                <a href=""><p>
+                  <i nz-icon nzType="logout"></i> Log out
+                </p></a>
+              </div>
+            </ng-template>
+            
+            <a nz-dropdown nzTrigger="click" [nzDropdownMenu]="menu">
+              <i nz-icon nzType="global"></i> EN
+              <i nz-icon nzType="down"></i>
+            </a>
+            <nz-dropdown-menu #menu="nzDropdownMenu">
+              <ul nz-menu>
+                <li nz-menu-item>English</li>
+                <li nz-menu-item>French</li>
+                <li nz-menu-item>Spanish</li>
+              </ul>
+            </nz-dropdown-menu>   
+          </div>
+        </div>          
+      </div>
+    </div>
+  </nz-header>

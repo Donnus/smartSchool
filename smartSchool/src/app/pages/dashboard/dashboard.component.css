@@ -1,0 +1,13 @@
+.inner-layout {
+  padding: 24px 0;
+  background: #fff;
+}
+
+.inner-content {
+  padding: 0 24px;
+  min-height: 280px;
+}
+
+nz-footer {
+  text-align: center;
+}

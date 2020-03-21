@@ -1,0 +1,46 @@
+<nz-row [nzGutter]="16">
+    <nz-col [nzSpan]="8">
+        <nz-card>
+            <nz-statistic
+                [nzValue]="1500 | number: '1.0-2'"
+                [nzTitle]="'Total Students'"
+                [nzPrefix]="prefixStud"
+                [nzValueStyle]="{ color: '#3F8600' }">
+            </nz-statistic>
+            <ng-template #prefixStud>
+                <nz-avatar nzIcon="user" nzSrc="../../../assets/classmates.png"></nz-avatar>
+            </ng-template>
+            </nz-card>        
+    </nz-col>
+    <nz-col [nzSpan]="8">
+        <nz-card>
+            <nz-statistic
+                [nzValue]="150 | number: '1.0-2'"
+                [nzTitle]="'Total Teachers'"
+                [nzPrefix]="prefixTeach"
+                [nzValueStyle]="{ color: '#3F8600' }">
+            </nz-statistic>
+            <ng-template #prefixTeach><nz-avatar nzIcon="user" nzSrc="../../../assets/teacher.png"></nz-avatar></ng-template>
+            </nz-card>         
+    </nz-col>
+    <nz-col [nzSpan]="8">
+        <nz-card>
+            <nz-statistic
+                [nzValue]="2500 | currency: 'GHS '"
+                [nzTitle]="'Total Fees Collected'"
+                [nzPrefix]="prefixFee"
+                [nzValueStyle]="{ color: '#3F8600' }">
+            </nz-statistic>
+            <ng-template #prefixFee><nz-avatar nzIcon="user" nzSrc="../../../assets/money.png"></nz-avatar></ng-template>
+            </nz-card>         
+    </nz-col>    
+</nz-row>
+
+<nz-row [nzGutter]="16" style="margin: 50px;">
+    <nz-col [nzSpan]="12">
+        <div id="c1"></div>
+    </nz-col>
+    <nz-col [nzSpan]="12">
+        dn
+    </nz-col>    
+</nz-row>

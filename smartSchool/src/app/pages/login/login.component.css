@@ -1,0 +1,46 @@
+
+      .login-form {
+        max-width: 300px;
+      }
+
+      .login-form-forgot {
+        float: right;
+      }
+
+      .login-form-button {
+        width: 100%;
+      }
+
+      .logo {
+        width: 120px;
+        height: 31px;
+        color: #fff;
+        /* background: rgba(255, 255, 255, 0.2); */
+        margin: 16px 24px 16px 0;
+        float: left;
+      }
+
+      [nz-menu] {
+        line-height: 64px;
+      }
+      
+      nz-content {
+        padding: 0 50px;
+      }
+
+      nz-footer {
+        text-align: center;
+      }
+
+      .inner-content {
+        background: #fff;
+        padding: 24px;
+        height: 100%;
+      }
+      .ant-layout-footer {
+        padding: 24px 50px;
+        color: rgba(0, 0, 0, 0.65);
+        font-size: 14px;
+        /* background: #ffffff; */
+        background-image: url(../../../assets/bg.png); 
+    }

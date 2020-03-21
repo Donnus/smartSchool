@@ -1,0 +1,41 @@
+
+    <nz-layout class="inner-content">
+      <!-- <nz-header>
+        <div class="logo"> PLUTECH SCHOOL MANAGEMENT</div>
+      </nz-header> -->
+      <nz-content style="margin-top: 40px;">
+        <div>
+          <div style="width:300px; margin: auto; text-align: center;">
+            <nz-avatar nzIcon="user" style="width: 100px; height: 100px; margin-bottom: 20px;"
+            nzSrc="../../../assets/schoolLogo.png"></nz-avatar>
+            <b><p>PLUTECH SCHOOL MANAGEMENT</p></b>
+          </div>
+          <nz-card style="width:300px; margin: auto;">
+            <form nz-form [formGroup]="validateForm" class="login-form" (ngSubmit)="submitForm(validateForm.value)">
+              <nz-form-item>
+                <nz-form-control nzErrorTip="Please input your username!">
+                  <nz-input-group nzPrefixIcon="user">
+                    <input type="text" nz-input formControlName="userName" placeholder="Username" />
+                  </nz-input-group>
+                </nz-form-control>
+              </nz-form-item>
+              <nz-form-item>
+                <nz-form-control nzErrorTip="Please input your Password!">
+                  <nz-input-group nzPrefixIcon="lock">
+                    <input type="password" nz-input formControlName="password" placeholder="Password" />
+                  </nz-input-group>
+                </nz-form-control>
+              </nz-form-item>
+              <nz-form-item>
+                <nz-form-control>
+                  <button nz-button class="login-form-button" [nzType]="'primary'">Log in</button>
+                </nz-form-control>
+              </nz-form-item>
+            </form>          
+          </nz-card>          
+
+        </div>
+      </nz-content>
+      <nz-footer>Powered By Plutech Technologies ©2020</nz-footer>
+    </nz-layout>
+  

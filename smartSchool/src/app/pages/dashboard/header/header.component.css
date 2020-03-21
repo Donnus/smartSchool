@@ -1,0 +1,18 @@
+nz-header {
+    background: #fff;
+    box-shadow: 0 2px 8px #f0f1f2;
+    position: relative;
+    z-index: 10;
+    max-width: 100%;
+  }
+  
+  .header-menu {
+    line-height: 64px;
+  }
+  
+  .header-icons
+  {
+    width:40px; 
+    height: 40px; 
+    margin-right: 30px;
+  }
